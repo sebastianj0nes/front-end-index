@@ -28,6 +28,21 @@ h2{
 
 #homepage{
     text-align: center;
+    background-color: #FFF4A3;
+}
+
+#homepage h2{
+    padding: 5px;
+    margin: 5px;
+}
+
+#html img,
+#css img,
+#js img,
+#git img{
+    max-width: 750px;
+    max-height: 750px;
+    position: relative;
 }
 
 section {
@@ -42,10 +57,24 @@ ul{
     list-style-position: inside;
     list-style-type: none;
     font-size: 30px;
+    padding: 0;
 }
 li{
     text-decoration: none;
 
+}
+
+#html{
+    background-color: #f1faee;
+}
+#css{
+    background-color: #a8dadc;
+}
+#js{
+    background-color: #ccd5ae;
+}
+#git{
+    background-color: #d4a373;
 }
 
 a{
