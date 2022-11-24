@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git Staging Files - Front End Index</title>
+    <title>Git Pushing Files - Front End Index</title>
     <link rel="stylesheet" href="./git_style.css">
     <link rel="icon" type="image/x-icon" href="../../assets/images/git_images/git_logo.png">
 </head>
@@ -54,26 +54,25 @@
         </section>
         
         <section id="clone">
-            <h2>Staging Files</h2>
+            <h2>Pushing Files</h2>
             <p>
-                Staging files is the act of preparing files to be pushed back to the main repository, on Github.
+                Pushing files, uploads the committed files to the repository.
                 <br>
-                <img src="../../assets/images/git_images/git_staging_diagram.png" id="stage_diagram" alt="Diagram to demonstrate staging process in Git">
+                Files must first be <a href="./git_commit.html">committed</a>, with an appropriate comment.
                 <br>
-                This is a simple process and only takes one command.
+                In this example, I'll push the "example" folder to the repository.
                 <br>
-                In <strong>Terminal</strong>, open the correct folder
+                <img src="../../assets/images/git_images/repository.png" id="repository" alt="Repository without example folder">
                 <br>
-                Type <strong> "git add -A" </strong>to prepare all files in the folder to be pushed
-                <img src="../../assets/images/git_images/staging_ex.png" id="stage_ex" alt="Example of working staging process in terminal">
+                This is the repository without the folder.
                 <br>
-                If successful, the terminal will <strong>display a new line </strong>with no text
+                The folder has been staged and committed, now ready to be pushed.
                 <br>
-                The files are now staged, ready to be committed.
-
+                In the terminal type <strong> "git push origin main"</strong>
+                
             </p>
-            <a href="./git_homepage.html" id="previous"> <- Cloning Repo </a>
-            <a href="./git_commit.html" id="next">Committing Files -></a>
+            <a href="./git_commit.html" id="previous"> <- Committing Files </a>
+            <a href="#" id="next">Push Files -></a>
         </section>
     </div>
 
