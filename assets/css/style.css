@@ -66,6 +66,7 @@ li{
 
 #html{
     background-color: #e0fbfc;
+    
 }
 #css{
     background-color: #a8dadc;
@@ -76,6 +77,26 @@ li{
 #git{
     background-color: #f4a261;
 }
+
+#html,#css,#js,#git{
+    height: 1000px;
+}
+
+#html h2 ,
+#css h2,
+#js h2 ,
+#git h2{
+    margin: 15px;
+    padding: 40px;
+}
+
+#html img,
+#css img,
+#js img,
+#git img{
+    padding: 40px;
+}
+
 
 a{
     color: #3d405b;
