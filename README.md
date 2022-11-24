@@ -8,7 +8,7 @@ Main topics include;
 - CSS 
 - Javascript
 - Git
-Including a glossary for future use.
+
 
 ## Installation
 
