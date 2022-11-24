@@ -49,6 +49,10 @@ a:hover{
 #next{
     float: right;
 }
+#previous{
+    position: relative;
+    float: left;
+}
 
 p{
     font-size: 20px;
@@ -107,7 +111,8 @@ p{
 #clone_ssh,
 #term_clone,
 #cloned_repo,
-#destination {
+#destination,
+#stage_diagram {
     max-width: 550px;
     max-height: 550px;
     position: relative;
