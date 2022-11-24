@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git Cloning Repo - Front End Index</title>
+    <title>Git Committing Files - Front End Index</title>
     <link rel="stylesheet" href="./git_style.css">
     <link rel="icon" type="image/x-icon" href="../../assets/images/git_images/git_logo.png">
 </head>
@@ -53,31 +53,16 @@
         </section>
         
         <section id="clone">
-            <h2>Cloning Repository</h2>
-            <p>Cloning a repository is the first step in being able to use version control when developing.
+            <h2>Committing Files</h2>
+            <p>
+                Committing files takes the staged files a step further, with a <strong>comment from the user</strong>.
                 <br>
-                Head to the <strong>destined repository</strong> you would like to clone and start working on, and <strong>click on "code"</strong>
-                <img src="../../assets/images/git_images/cloning_ssh.png" id="clone_ssh" alt="Example of cloning using SSH keys">
-                <img src="../../assets/images/git_images/arrow.png" id="arrow" alt="Arrow demonstrating where to click">
+                Essentially taking <strong>all elements from the staged area</strong>, to take a permanent snapshot of the files.
                 <br>
-                Click on <strong>SSH, then copy the unique ID</strong> given
-                <br>
-                Open <strong>Terminal</strong>
-                <br>
-                Then <strong>choose a destination for your repository</strong>, in this instance it will be cloned to the Desktop
-                <img src="../../assets/images/git_images/destination.png" id="destination" alt="Choosing a destination for repo">
-                <br>
-                Type in terminal <strong>"git clone '(paste the unique ID)' "</strong> and press Enter.
-                <br>
-                <img src="../../assets/images/git_images/term_clone.png" id="term_clone" alt="Cloning ID into terminal">
-                <br>
-                Once successfully cloned, you will find a folder containing all the contents from the repository.
-                <img src="../../assets/images/git_images/cloned_repo.png" id="cloned_repo" alt="Showing cloned repository">
-                <br>
-                You can now work on the project, ready to be pushed back to the repository
-                <br>
+                Files must be <a href="./git_staging.html" id="staged_in_link">staged</a> before being ready to commit
             </p>
-            <a href="./git_staging.html" id="next">Staging Files -></a>
+            <a href="./git_staging.html" id="previous"> <- Staging Files </a>
+            <a href="#" id="next">Branches -></a>
         </section>
     </div>
 

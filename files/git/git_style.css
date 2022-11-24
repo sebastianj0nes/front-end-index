@@ -120,6 +120,12 @@ p{
     margin: 20px;
     left: 205px;
 }
+
+#staged_in_link a{
+    font-size: 20px;
+    color: #333333;
+}
+
 #arrow{
     position: absolute;
     left: 1070px;
