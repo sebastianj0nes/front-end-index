@@ -40,8 +40,8 @@ h2{
 #css img,
 #js img,
 #git img{
-    max-width: 750px;
-    max-height: 750px;
+    width: 750px;
+    height: 475px;
     position: relative;
 }
 
@@ -101,6 +101,11 @@ li{
 a{
     color: #3d405b;
     text-decoration: none;
+}
+#git img:hover,#css img:hover,#html img:hover,#js img:hover{
+    transition-duration: 0.75s;
+    height: 550px;
+    width: 850px;
 }
 
 a:hover{
