@@ -87,6 +87,7 @@ p{
 .sidenav a:hover{
     text-decoration: underline;
     font-size: 24px;
+    transition-duration: 0.3s;
     
 }
 
@@ -134,6 +135,15 @@ p{
     color: #333333;
 }
 
+#next,
+#previous,
+#staged_in_link,
+#committed,
+#pushing{
+    transition-duration: 0.5s;
+
+}
+
 #arrow{
     position: absolute;
     left: 1070px;
@@ -146,4 +156,5 @@ p{
 #clone p{
     text-align: left;
 }
+
 
