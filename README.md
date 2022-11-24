@@ -3,12 +3,18 @@
 ## Description
 
 An index page for any topics learnt relevant to front-end programming.
+Main topics include;
+- HTML
+- CSS 
+- Javascript
+- Git
 Including a glossary for future use.
 
 ## Installation
 
 Launch the website.
 No installation required. 
+Built for viewing on computer.
 
 ## Usage
 
