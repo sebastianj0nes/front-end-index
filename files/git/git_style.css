@@ -28,7 +28,7 @@ h2{
 
 #clone{
     text-align: center;
-    background-color: #FFF4A3;
+    background-color: #f6e9c9;
 }
 
 #clone h2{
@@ -40,14 +40,22 @@ h2{
 }
 
 #clone_ssh,
-#term_clone {
+#term_clone,
+#cloned_repo {
     max-width: 550px;
     max-height: 550px;
     position: relative;
     margin: 20px;
     left: 205px;
 }
-
+#arrow{
+    position: absolute;
+    left: 1075px;
+    top: 580px;
+    transform: scaleX(-1);
+    height: 100px;
+    width: 100px;
+}
 
 #clone p{
     text-align: left;
