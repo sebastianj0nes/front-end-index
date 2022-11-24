@@ -96,6 +96,14 @@ p{
     font-size: 23px;
 }
 
+#git_logo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 750px;
+    top: 168px;
+}
+
 #clone_ssh,
 #term_clone,
 #cloned_repo {
