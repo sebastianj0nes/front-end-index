@@ -50,8 +50,8 @@ a:hover{
     float: right;
 }
 #previous{
-    position: relative;
-    float: left;
+    position: absolute;
+    left: 185px;
 }
 
 p{
