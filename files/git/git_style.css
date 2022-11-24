@@ -119,7 +119,9 @@ p{
 #repository,
 #pushed_repo,
 #local_dir,
-#local_out {
+#local_out,
+#pull_repo,
+#matching_dir {
     max-width: 550px;
     max-height: 550px;
     position: relative;
