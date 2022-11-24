@@ -116,7 +116,9 @@ p{
 #stage_ex,
 #commit_ex,
 #push_ex,
-#repository {
+#repository,
+#pushed_repo,
+#local_dir {
     max-width: 550px;
     max-height: 550px;
     position: relative;
