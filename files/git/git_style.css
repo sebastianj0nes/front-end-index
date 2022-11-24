@@ -112,7 +112,8 @@ p{
 #term_clone,
 #cloned_repo,
 #destination,
-#stage_diagram {
+#stage_diagram,
+#stage_ex {
     max-width: 550px;
     max-height: 550px;
     position: relative;
