@@ -39,7 +39,8 @@ h2{
     font-size: 23px;
 }
 
-#clone_ssh {
+#clone_ssh,
+#term_clone {
     max-width: 550px;
     max-height: 550px;
     position: relative;
