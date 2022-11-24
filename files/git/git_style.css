@@ -106,7 +106,8 @@ p{
 
 #clone_ssh,
 #term_clone,
-#cloned_repo {
+#cloned_repo,
+#destination {
     max-width: 550px;
     max-height: 550px;
     position: relative;
@@ -115,8 +116,8 @@ p{
 }
 #arrow{
     position: absolute;
-    left: 1075px;
-    top: 580px;
+    left: 1070px;
+    top: 550px;
     transform: scaleX(-1);
     height: 100px;
     width: 100px;
