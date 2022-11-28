@@ -1,5 +1,5 @@
 body{
-    background-color: #ffba08;
+    background-color: #ffadad;
     color: #353535;
     font-family: "Inter",sans-serif;
 }
@@ -28,12 +28,7 @@ h2{
 
 #homepage{
     text-align: center;
-    background-color: #FFF4A3;
-}
-
-#homepage h2{
-    padding: 5px;
-    margin: 5px;
+    padding: 0;
 }
 
 #html img,
@@ -75,7 +70,7 @@ li{
     background-color: #74c69d;
 }
 #git{
-    background-color: #f4a261;
+    background-color: #e76f51;
 }
 
 #html,#css,#js,#git{

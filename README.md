@@ -14,7 +14,7 @@ Main topics include;
 
 Launch the website.
 No installation required. 
-Built for viewing on computer.
+Built for viewing on computer, mobile use will be deployed after main website is finished.
 
 ## Usage
 
