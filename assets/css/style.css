@@ -90,6 +90,7 @@ li{
 #js img,
 #git img{
     padding: 40px;
+    transition-duration: 0.4s;
 }
 
 
